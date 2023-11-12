@@ -1,0 +1,114 @@
+*{
+    margin: 10px;
+}
+.logo{
+    width: 110px;
+    height: 110px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    position: absolute;
+    left: 80px;
+    bottom: 570px;
+}
+.side-bar{
+   height: 600px;
+}
+.header{
+    position: absolute;
+    bottom: 500px;
+    left: 120px;
+}
+.header > p{
+    color: #000;
+    font-family: 'Wix Madefor Display', sans-serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.bar{
+    position: absolute;
+    bottom: 490px;
+    width: 270px;
+    left: 131px;
+}
+.big{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    bottom: 50px;
+    left: 850px;
+}
+.head{
+    position: absolute;
+    bottom: 380px;
+    color: #67DF2F;
+    text-shadow: -2px 2px 9.600000381469727px #67DF2F;
+    font-family: 'Rammetto One', sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    -webkit-text-stroke: 2px black;
+    left: 131px;
+}
+.sub-head{
+    position: absolute;
+    color: #000;
+    font-family: 'Michroma', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 131px;
+    bottom: 360px;
+}
+.para{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 131px;
+    bottom:260px;
+
+}
+button{
+    position: absolute;
+    stroke: #000;
+    color: black;
+    background-color: #67DF2F;
+    color: #000;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left:40px;
+    padding-right:40px;
+    border-radius: 40px;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    bottom: 180px;
+    left: 131px;
+    box-shadow: 7px 7px 10px 0 rgba(0,0,0,0.3), 0 6px 40px 0 rgba(0,0,0,0.19);
+
+}
+.button-bar > img{
+    position: absolute;
+    left: 296px;
+    bottom: 199px;
+    width: 100px;
+}
+.button-bar > P{
+    position: absolute;
+    color: #000;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    bottom: 192px;
+    left: 420px;
+}
