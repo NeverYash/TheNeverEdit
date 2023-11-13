@@ -1,6 +1,12 @@
 *{
     margin: 10px;
 }
+@media only screen and (min-width:769px){
+    .onlymobile{
+        display: none;
+    }
+}
+
 a{
     text-decoration: none;
     margin: 0px;
@@ -127,6 +133,9 @@ button{
     left: 420px;
 }
 @media only screen and (min-width:321px) and (max-width:768px){
+    .onlymobile{
+        display: none;
+    }
     marquee{
         position: absolute;
         bottom: -60px;
@@ -248,7 +257,7 @@ button{
 }
 
 }
-@media only screen and (max-width:320px){
+@media only screen and (min-width:100px) and (max-width:320px){
     marquee{
         position: absolute;
         bottom: -60px;
@@ -258,6 +267,17 @@ button{
         font-family: 'Michroma', sans-serif;
         margin-bottom: 0px;
         width: 480px;
+    }
+    .onlymobile{
+        position: absolute;
+    color: rgb(0, 0, 0);
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 100px;
+    bottom:150px;
     }
     .logo{
         width: 110px;
@@ -331,7 +351,7 @@ button{
     line-height: normal;
     left: 100px;
     bottom:150px;
-
+    display: none;
     }   
     button{
     position: absolute;
