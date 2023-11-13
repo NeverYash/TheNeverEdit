@@ -132,7 +132,7 @@ button{
     bottom: 192px;
     left: 420px;
 }
-@media only screen and (min-width:321px) and (max-width:768px){
+@media only screen and (min-width:401px) and (max-width:768px){
     .onlymobile{
         display: none;
     }
@@ -257,7 +257,7 @@ button{
 }
 
 }
-@media only screen and (min-width:100px) and (max-width:320px){
+@media only screen and (min-width:100px) and (max-width:400px){
     marquee{
         position: absolute;
         bottom: -60px;
